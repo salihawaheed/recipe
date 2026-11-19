@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaiqa-e-Shahi | Royal Amethyst & Pearl White Pakistani Dastarkhwan</title>
+
+    <!-- Google Fonts: Playfair Display (Editorial Serif) & Plus Jakarta Sans (Modern UI Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind Custom Configuration: Royal Amethyst Purple & Crisp Pearl White -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        amethystVoid: '#120824',
+                        imperialPlum: '#1C0D36',
+                        royalViolet: '#261248',
+                        orchidGlow: '#B57BFF',
+                        lilacMist: '#D8B4FE',
+                        violetPulse: '#7E3AF2',
+                        champagneGold: '#F3E5AB',
+                        silverPearl: '#E2D9F3',
+                        pearlWhite: '#FFFFFF',
+                        ivorySilk: '#FAF7FF',
+                        lavenderWash: '#F1E9FF',
+                        royalInk: '#3B136B',
+                        plumInk: '#5B21B6',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'amethyst-glow': '0 0 36px rgba(181, 123, 255, 0.34)',
+                        'pearl-glow': '0 14px 40px rgba(255, 255, 255, 0.16)',
+                        'royal-card': '0 24px 60px rgba(10, 4, 22, 0.72)',
+                        'crisp-card': '0 20px 50px rgba(18, 8, 36, 0.24)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --bg-amethyst: #120824;
+            --bg-plum: #1C0D36;
+            --bg-violet: #261248;
+            --orchid: #B57BFF;
+            --lilac: #D8B4FE;
+            --champagne: #F3E5AB;
+            --pearl: #FFFFFF;
+            --ivory: #FAF7FF;
+            --lavender: #F1E9FF;
+            --royal-ink: #3B136B;
+        }
+
+        body {
+            background-color: var(--bg-amethyst);
+            color: var(--pearl);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Royal Amethyst & Pearl Bloom Lattice Background */
+        .amethyst-lattice {
+            background-color: #120824;
+            background-image:
+                radial-gradient(ellipse 82% 46% at 50% -6%, rgba(216, 180, 254, 0.24) 0%, rgba(126, 58, 242, 0.14) 45%, transparent 74%),
+                radial-gradient(circle at 14% 32%, rgba(255, 255, 255, 0.11) 0%, transparent 42%),
+                radial-gradient(circle at 88% 68%, rgba(181, 123, 255, 0.20) 0%, transparent 48%),
+                linear-gradient(180deg, #120824 0%, #1C0D36 52%, #120824 100%),
+                url("data:image/svg+xml,%3Csvg width='72' height='72' viewBox='0 0 72 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23FFFFFF' stroke-width='0.65' stroke-opacity='0.09'%3E%3Cpath d='M36 0L72 36L36 72L0 36z'/%3E%3Cpath d='M36 10L62 36L36 62L10 36z'/%3E%3Cpath d='M36 18L54 36L36 54L18 36z'/%3E%3Ccircle cx='36' cy='36' r='6' stroke='%23D8B4FE' stroke-opacity='0.18'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Dark Amethyst Glass Surface with Crisp Pearl-Lilac Rim */
+        .amethyst-glass {
+            background: linear-gradient(155deg, rgba(38, 18, 72, 0.88) 0%, rgba(28, 13, 54, 0.94) 55%, rgba(18, 8, 36, 0.97) 100%);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.18), 0 20px 48px rgba(8, 3, 18, 0.68);
+        }
+
+        /* Crisp Pearl White Luxury Card Surface */
+        .pearl-card {
+            background: linear-gradient(165deg, #FFFFFF 0%, #FAF7FF 62%, #F1E9FF 100%);
+            color: #1C0D36;
+            border: 1px solid rgba(255, 255, 255, 0.95);
+            box-shadow: 0 18px 42px rgba(8, 3, 18, 0.45), inset 0 1px 0 rgba(255, 255, 255, 1);
+        }
+
+        .pearl-card-hover {
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+        }
+
+        .pearl-card-hover:hover {
+            transform: translateY(-7px);
+            border-color: #D8B4FE;
+            box-shadow: 0 26px 54px rgba(8, 3, 18, 0.62), 0 0 28px rgba(181, 123, 255, 0.36);
+        }
+
+        /* Mughal Corner Filigree in Pearl & Orchid */
+        .mughal-corners {
+            position: relative;
+        }
+        .mughal-corners::before,
+        .mughal-corners::after {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            pointer-events: none;
+            z-index: 15;
+            transition: all 0.35s ease;
+        }
+        .mughal-corners::before {
+            top: 8px;
+            left: 8px;
+            border-top: 1.5px solid rgba(126, 58, 242, 0.45);
+            border-left: 1.5px solid rgba(126, 58, 242, 0.45);
+            border-top-left-radius: 6px;
+        }
+        .mughal-corners::after {
+            bottom: 8px;
+            right: 8px;
+            border-bottom: 1.5px solid rgba(126, 58, 242, 0.45);
+            border-right: 1.5px solid rgba(126, 58, 242, 0.45);
+            border-bottom-right-radius: 6px;
+        }
+
+        /* Pearl White & Champagne Shimmer Heading Text */
+        .pearl-shimmer-text {
+            background: linear-gradient(125deg, #FFFFFF 0%, #F3E5AB 38%, #FFFFFF 55%, #E2D9F3 82%, #FFFFFF 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pearlShimmer 7s linear infinite;
+        }
+
+        @keyframes pearlShimmer {
+            0% { background-position: 0% center; }
+            100% { background-position: 200% center; }
+        }
+
+        /* Crisp Pearl White Button with Royal Purple Text */
+        .btn-pearl-royal {
+            background: linear-gradient(135deg, #FFFFFF 0%, #FAF7FF 52%, #EFE6FF 100%);
+            color: #3B136B;
+            border: 1px solid rgba(255, 255, 255, 0.95);
+            box-shadow: 0 8px 24px rgba(255, 255, 255, 0.20), inset 0 1px 0 #FFFFFF;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .btn-pearl-royal:hover {
+            background: linear-gradient(135deg, #FFFFFF 0%, #F3E5AB 100%);
+            color: #1C0D36;
+            box-shadow: 0 10px 30px rgba(216, 180, 254, 0.45), inset 0 1px 0 #FFFFFF;
+            transform: translateY(-1px);
+        }
+
+        /* Royal Amethyst Button with Crisp White Border */
+        .btn-amethyst-pearl {
+            background: linear-gradient(135deg, #5B21B6 0%, #3B136B 60%, #261248 100%);
+            color: #FFFFFF;
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            box-shadow: 0 8px 22px rgba(59, 19, 107, 0.45);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .btn-amethyst-pearl:hover {
+            background: linear-gradient(135deg, #7E3AF2 0%, #4C1D95 100%);
+            border-color: #FFFFFF;
+            box-shadow: 0 10px 28px rgba(181, 123, 255, 0.45);
+        }
+
+        /* Decorative Mughal Divider */
+        .mughal-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .mughal-divider::before,
+        .mughal-divider::after {
+            content: '';
+            height: 1px;
+            flex: 1;
+            max-width: 170px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), rgba(216, 180, 254, 0.75), transparent);
+        }
+
+        /* Floating Shimmer Motes */
+        .shimmer-mote {
+            position: absolute;
+            border-radius: 9999px;
+            background: radial-gradient(circle, #FFFFFF 0%, #D8B4FE 58%, transparent 100%);
+            pointer-events: none;
+            opacity: 0;
+            animation: floatMote var(--dur, 9s) ease-in-out infinite;
+            animation-delay: var(--delay, 0s);
+        }
+
+        @keyframes floatMote {
+            0%, 100% { transform: translateY(0) scale(0.8); opacity: 0; }
+            25% { opacity: 0.65; }
+            50% { transform: translateY(-26px) scale(1.2); opacity: 0.9; }
+            75% { opacity: 0.45; }
+        }
+
+        @keyframes timerPulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(126, 58, 242, 0.45); }
+            50% { box-shadow: 0 0 0 9px rgba(126, 58, 242, 0); }
+        }
+        .timer-running {
+            animation: timerPulse 1.8s infinite;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #120824;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #5B21B6, #261248);
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.35);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #D8B4FE;
+        }
+    </style>
+</head>
+<body class="amethyst-lattice min-h-screen flex flex-col selection:bg-pearlWhite selection:text-royalInk">
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="fixed bottom-6 right-6 z-[110] flex flex-col gap-3 pointer-events-none max-w-sm"></div>
+
+    <!-- 1. TOP HEADER BAR -->
+    <header class="sticky top-0 z-40 amethyst-glass border-b border-pearlWhite/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+            <!-- Brand Emblem -->
+            <a href="#" class="flex items-center gap-3 group shrink-0">
+                <div class="relative w-12 h-12 rounded-2xl pearl-card flex items-center justify-center group-hover:scale-105 transition-transform">
+                    <svg class="w-6 h-6 text-royalInk" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 3C11 7 7 11 7 18V28H25V18C25 11 21 7 16 3Z" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M16 8C13 11 11 14 11 19V28H21V19C21 14 19 11 16 8Z" stroke="#7E3AF2" stroke-width="1.3" stroke-dasharray="2 2"/>
+                        <circle cx="16" cy="18" r="2.5" fill="#5B21B6"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="font-serif text-xl sm:text-2xl font-bold tracking-wide pearl-shimmer-text block leading-none">Zaiqa-e-Shahi</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-[0.26em] text-lilacMist block mt-1">The Royal Dastarkhwan</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-ivorySilk/90">
+                <a href="#recipes-section" class="hover:text-pearlWhite transition-colors py-1 border-b-2 border-transparent hover:border-pearlWhite">Recipes</a>
+                <a href="#masala-dabba-section" class="hover:text-pearlWhite transition-colors py-1 border-b-2 border-transparent hover:border-pearlWhite">Masala Dabba</a>
+                <a href="#feast-planner-section" class="hover:text-pearlWhite transition-colors py-1 border-b-2 border-transparent hover:border-pearlWhite">Feast Planner</a>
+            </nav>
+
+            <!-- Action Buttons: Saved Recipes Counter & Plan Dastarkhwan -->
+            <div class="flex items-center gap-2 sm:gap-3">
+                <button
+                    onclick="toggleSavedOnlyFilter()"
+                    id="header-saved-btn"
+                    class="px-3.5 py-2.5 rounded-xl amethyst-glass hover:border-pearlWhite text-pearlWhite text-xs sm:text-sm font-semibold flex items-center gap-2 transition-all"
+                >
+                    <i class="fa-solid fa-bookmark text-lilacMist"></i>
+                    <span class="hidden sm:inline">Saved Recipes</span>
+                    <span id="saved-count-badge" class="bg-pearlWhite text-royalInk text-xs font-extrabold px-2 py-0.5 rounded-full min-w-[22px] text-center">0</span>
+                </button>
+
+                <a
+                    href="#feast-planner-section"
+                    class="px-4 py-2.5 rounded-xl btn-pearl-royal text-xs sm:text-sm font-bold flex items-center gap-2"
+                >
+                    <i class="fa-solid fa-crown text-plumInk"></i>
+                    <span>Plan Dastarkhwan</span>
+                    <span id="feast-count-badge" class="bg-royalInk text-pearlWhite text-xs font-bold px-2 py-0.5 rounded-full min-w-[22px] text-center">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. EDITORIAL HERO SECTION + FEATURED DISH SPOTLIGHT CARD -->
+    <section class="relative pt-12 pb-16 sm:pt-20 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <!-- Ambient Amethyst & Pearl Blooms -->
+        <div class="absolute top-6 left-1/4 w-[460px] h-[340px] bg-violetPulse/25 blur-[130px] rounded-full pointer-events-none"></div>
+        <div class="absolute top-16 right-1/5 w-[420px] h-[320px] bg-pearlWhite/12 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <!-- Floating Shimmer Motes -->
+        <div class="shimmer-mote w-2 h-2 top-16 left-[14%]" style="--dur: 8.5s; --delay: 0s;"></div>
+        <div class="shimmer-mote w-1.5 h-1.5 top-40 left-[38%]" style="--dur: 10.5s; --delay: 2s;"></div>
+        <div class="shimmer-mote w-2 h-2 top-24 right-[18%]" style="--dur: 9s; --delay: 1.2s;"></div>
+        <div class="shimmer-mote w-1.5 h-1.5 bottom-16 right-[28%]" style="--dur: 11s; --delay: 3s;"></div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                <!-- Left Editorial Column (7 Cols) -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full pearl-card text-royalInk text-xs font-bold uppercase tracking-[0.22em] mb-6">
+                        <i class="fa-solid fa-sparkles text-plumInk"></i>
+                        <span>Royal Amethyst & Pearl Dastarkhwan</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl xl:text-6xl font-bold text-pearlWhite leading-[1.12] mb-5">
+                        Imperial Pakistani Cuisine, <span class="italic font-normal pearl-shimmer-text">Crafted to Perfection</span>
+                    </h1>
+
+                    <p class="text-lavenderWash/90 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-8 font-light">
+                        From saffron-scented Lahori mutton biryani and slow-simmered Nihari to crisp Peshawari chapli kebabs and gulabi Kashmiri chai—scale servings, convert Desi & metric measurements, and run live step timers.
+                    </p>
+
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 mb-10">
+                        <a href="#recipes-section" class="px-6 py-3.5 rounded-xl btn-pearl-royal font-bold text-sm flex items-center gap-2">
+                            <span>Explore 8 Heirloom Recipes</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <button onclick="openRecipeModal('shahi-mutton-biryani')" class="px-6 py-3.5 rounded-xl amethyst-glass hover:border-pearlWhite text-pearlWhite font-semibold text-sm flex items-center gap-2 transition-all">
+                            <i class="fa-solid fa-fire-flame-curved text-lilacMist"></i>
+                            <span>Try Dum Timer Mode</span>
+                        </button>
+                    </div>
+
+                    <!-- Quick Stats Bar -->
+                    <div class="grid grid-cols-3 gap-3 sm:gap-5 max-w-xl mx-auto lg:mx-0 pt-6 border-t border-pearlWhite/20">
+                        <div class="amethyst-glass rounded-2xl p-3.5 text-center">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-pearlWhite">8</p>
+                            <p class="text-[11px] sm:text-xs text-lilacMist uppercase tracking-wider mt-0.5">Heirloom Recipes</p>
+                        </div>
+                        <div class="amethyst-glass rounded-2xl p-3.5 text-center">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-champagneGold">Live</p>
+                            <p class="text-[11px] sm:text-xs text-lilacMist uppercase tracking-wider mt-0.5">Interactive Timers</p>
+                        </div>
+                        <div class="amethyst-glass rounded-2xl p-3.5 text-center">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-pearlWhite">0.5x–3x</p>
+                            <p class="text-[11px] sm:text-xs text-lilacMist uppercase tracking-wider mt-0.5">Serving Scaler</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Featured Dish Spotlight Card (5 Cols - Crisp Pearl White Luxury Card) -->
+                <div class="lg:col-span-5">
+                    <div class="pearl-card pearl-card-hover mughal-corners rounded-3xl overflow-hidden">
+                        <div class="relative h-64 sm:h-72 bg-royalViolet overflow-hidden">
+                            <img
+                                id="spotlight-img"
+                                src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1000&q=85"
+                                alt="Shahi Zafrani Mutton Biryani"
+                                onerror="this.onerror=null;this.replaceWith(createDishArtworkSVG('biryani'));"
+                                class="w-full h-full object-cover object-center"
+                            >
+                            <div class="absolute inset-0 bg-gradient-to-t from-amethystVoid/85 via-transparent to-transparent"></div>
+                            <span class="absolute top-4 left-4 px-3.5 py-1 rounded-full bg-royalInk text-pearlWhite text-[11px] font-bold uppercase tracking-wider shadow">
+                                Chef's Spotlight
+                            </span>
+                            <span class="absolute top-4 right-4 px-3 py-1 rounded-full pearl-card text-royalInk text-xs font-bold">
+                                Lahore & Sindh
+                            </span>
+                            <div class="absolute bottom-3.5 left-4 right-4 flex items-center justify-between text-pearlWhite text-xs">
+                                <span class="font-semibold"><i class="fa-regular fa-clock text-lilacMist mr-1.5"></i>110 mins total</span>
+                                <span class="px-2.5 py-0.5 rounded-full bg-amethystVoid/80 border border-pearlWhite/30">Medium Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="p-6 sm:p-7">
+                            <p class="text-xs uppercase tracking-[0.2em] text-plumInk font-bold">Rice & Biryani • شاہی زعفرانی بریانی</p>
+                            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-royalInk mt-1">Shahi Zafrani Mutton Biryani</h2>
+                            <p class="text-sm text-imperialPlum/80 mt-2 leading-relaxed">
+                                Aged Basmati sealed under golden dough with saffron milk, caramelized birista, green cardamom, and tender slow-braised goat.
+                            </p>
+                            <div class="mt-5 pt-4 border-t border-royalInk/15 flex items-center justify-between gap-3">
+                                <button onclick="openRecipeModal('shahi-mutton-biryani')" class="flex-1 py-3 px-4 rounded-xl btn-amethyst-pearl font-bold text-xs sm:text-sm flex items-center justify-center gap-2">
+                                    <span>Cook This Dish</span>
+                                    <i class="fa-solid fa-utensils"></i>
+                                </button>
+                                <button onclick="toggleFeastItem('shahi-mutton-biryani')" class="px-4 py-3 rounded-xl bg-lavenderWash hover:bg-lilacMist/40 border border-royalInk/25 text-royalInk font-bold text-xs sm:text-sm transition-colors">
+                                    <i class="fa-solid fa-plus mr-1"></i>Feast
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. FILTER, SEARCH & RESPONSIVE RECIPE GRID -->
+    <main id="recipes-section" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        <div class="text-center mb-10">
+            <span class="text-lilacMist text-xs uppercase tracking-[0.28em] font-bold">Curated Anthology</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pearlWhite mt-2">The Imperial Recipe Treasury</h2>
+            <div class="mughal-divider mt-4">
+                <i class="fa-solid fa-gem text-pearlWhite text-xs"></i>
+            </div>
+        </div>
+
+        <!-- Crisp Pearl White Filter & Search Control Bar -->
+        <div class="pearl-card rounded-3xl p-4 sm:p-6 mb-10 space-y-4">
+            <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
+                <!-- Search by Dish or Ingredient -->
+                <div class="relative flex-1">
+                    <i class="fa-solid fa-magnifying-glass text-plumInk absolute left-4 top-1/2 -translate-y-1/2 text-sm"></i>
+                    <input
+                        type="text"
+                        id="recipe-search-input"
+                        placeholder="Search by dish, Urdu/region, or ingredient (e.g., saffron, shank, anardana, chai)..."
+                        class="w-full pl-11 pr-10 py-3 rounded-2xl bg-lavenderWash/75 border border-royalInk/20 focus:border-plumInk focus:bg-pearlWhite text-sm text-royalInk placeholder-royalInk/55 focus:outline-none transition-all"
+                    >
+                    <button id="clear-search-btn" onclick="clearSearch()" class="hidden absolute right-3.5 top-1/2 -translate-y-1/2 text-royalInk/60 hover:text-royalInk">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                </div>
+
+                <!-- Spice Level Selector & Saved Only Toggle -->
+                <div class="flex flex-wrap items-center gap-2.5">
+                    <div class="flex items-center gap-1 bg-lavenderWash/80 p-1.5 rounded-2xl border border-royalInk/15">
+                        <span class="text-xs font-bold text-royalInk px-2"><i class="fa-solid fa-pepper-hot text-plumInk mr-1"></i>Spice:</span>
+                        <button data-spice="All" class="spice-pill px-3 py-1 rounded-xl text-xs font-bold bg-royalInk text-pearlWhite transition-all">All</button>
+                        <button data-spice="Mild" class="spice-pill px-3 py-1 rounded-xl text-xs font-semibold text-royalInk/75 hover:text-royalInk transition-all">Mild</button>
+                        <button data-spice="Medium" class="spice-pill px-3 py-1 rounded-xl text-xs font-semibold text-royalInk/75 hover:text-royalInk transition-all">Medium</button>
+                        <button data-spice="Fiery" class="spice-pill px-3 py-1 rounded-xl text-xs font-semibold text-royalInk/75 hover:text-royalInk transition-all">Fiery</button>
+                    </div>
+
+                    <button
+                        id="saved-only-toggle"
+                        onclick="toggleSavedOnlyFilter()"
+                        class="px-4 py-2.5 rounded-2xl border border-royalInk/25 bg-pearlWhite hover:bg-lavenderWash text-royalInk text-xs font-bold flex items-center gap-2 transition-all"
+                    >
+                        <i class="fa-regular fa-bookmark text-plumInk"></i>
+                        <span>Saved Only</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-royalInk/10" id="category-pills">
+                <button data-category="All" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-bold btn-amethyst-pearl transition-all">All</button>
+                <button data-category="Rice & Biryani" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all">Rice & Biryani</button>
+                <button data-category="Slow-Cooked & Curries" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all">Slow-Cooked & Curries</button>
+                <button data-category="Grills & Kebabs" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all">Grills & Kebabs</button>
+                <button data-category="Street & Bowls" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all">Street & Bowls</button>
+                <button data-category="Desserts & Chai" class="cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all">Desserts & Chai</button>
+            </div>
+        </div>
+
+        <!-- Responsive Recipe Cards Grid -->
+        <div id="recipes-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
+            <!-- Rendered by JS -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-recipes-state" class="hidden pearl-card rounded-3xl p-12 text-center mt-6">
+            <i class="fa-solid fa-mortar-pestle text-4xl text-plumInk mb-3"></i>
+            <h3 class="font-serif text-2xl font-bold text-royalInk">No Matching Dishes Found</h3>
+            <p class="text-sm text-imperialPlum/75 max-w-md mx-auto mt-1.5 mb-6">Try clearing your search or resetting the category, spice, and saved filters.</p>
+            <button onclick="resetAllFilters()" class="px-6 py-2.5 rounded-xl btn-amethyst-pearl font-bold text-sm">Reset Filters</button>
+        </div>
+
+        <!-- 6. ROYAL MASALA DABBA (7 INTERACTIVE SPICE BOWLS) -->
+        <section id="masala-dabba-section" class="mt-24 pt-16 border-t border-pearlWhite/20 relative">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-lilacMist text-xs uppercase tracking-[0.28em] font-bold">Sacred Spice Treasury</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-pearlWhite mt-2">The Royal Masala Dabba</h2>
+                <p class="text-lavenderWash/85 text-sm sm:text-base mt-3">
+                    Click any of the 7 royal spice bowls to explore its aroma profile, origins, and signature Pakistani dishes.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Interactive 7-Bowl Amethyst & Pearl Dabba -->
+                <div class="lg:col-span-6 flex justify-center">
+                    <div class="relative w-80 h-80 sm:w-[410px] sm:h-[410px] rounded-full amethyst-glass border-2 border-pearlWhite/40 shadow-royal-card flex items-center justify-center p-6">
+                        <div class="absolute inset-3 rounded-full border border-dashed border-lilacMist/45 pointer-events-none"></div>
+
+                        <!-- Bowl 0 (Center): Kashmiri Saffron -->
+                        <button onclick="selectMasalaBowl(0)" id="dabba-bowl-0" class="dabba-bowl z-10 w-24 h-24 sm:w-28 sm:h-28 rounded-full pearl-card border-2 border-royalInk flex flex-col items-center justify-center p-2 text-center transition-all hover:scale-105">
+                            <span class="w-4 h-4 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-200 mb-1 shadow"></span>
+                            <span class="font-serif text-xs sm:text-sm font-bold text-royalInk leading-tight">Kashmiri Saffron</span>
+                            <span class="text-[9px] font-semibold text-plumInk">Zafran</span>
+                        </button>
+
+                        <!-- Bowl 1 (Top): Green Cardamom -->
+                        <button onclick="selectMasalaBowl(1)" id="dabba-bowl-1" class="dabba-bowl absolute top-4 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-emerald-500 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Green Cardamom</span>
+                            <span class="text-[9px] text-plumInk">Elaichi</span>
+                        </button>
+
+                        <!-- Bowl 2 (Top-Right): Royal Cumin -->
+                        <button onclick="selectMasalaBowl(2)" id="dabba-bowl-2" class="dabba-bowl absolute top-16 right-5 sm:right-6 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-stone-700 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Royal Cumin</span>
+                            <span class="text-[9px] text-plumInk">Shahi Zeera</span>
+                        </button>
+
+                        <!-- Bowl 3 (Bottom-Right): Star Anise & Clove -->
+                        <button onclick="selectMasalaBowl(3)" id="dabba-bowl-3" class="dabba-bowl absolute bottom-16 right-5 sm:right-6 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-amber-800 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Star Anise & Clove</span>
+                            <span class="text-[9px] text-plumInk">Badiyan & Laung</span>
+                        </button>
+
+                        <!-- Bowl 4 (Bottom): Kashmiri Red Chili -->
+                        <button onclick="selectMasalaBowl(4)" id="dabba-bowl-4" class="dabba-bowl absolute bottom-4 left-1/2 -translate-x-1/2 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-rose-600 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Kashmiri Red Chili</span>
+                            <span class="text-[9px] text-plumInk">Lal Mirch</span>
+                        </button>
+
+                        <!-- Bowl 5 (Bottom-Left): Black Cardamom -->
+                        <button onclick="selectMasalaBowl(5)" id="dabba-bowl-5" class="dabba-bowl absolute bottom-16 left-5 sm:left-6 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-neutral-800 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Black Cardamom</span>
+                            <span class="text-[9px] text-plumInk">Bari Elaichi</span>
+                        </button>
+
+                        <!-- Bowl 6 (Top-Left): Dried Rose Petals -->
+                        <button onclick="selectMasalaBowl(6)" id="dabba-bowl-6" class="dabba-bowl absolute top-16 left-5 sm:left-6 w-20 h-20 sm:w-24 sm:h-24 rounded-full pearl-card flex flex-col items-center justify-center p-1.5 text-center transition-all hover:scale-105">
+                            <span class="w-3.5 h-3.5 rounded-full bg-fuchsia-500 mb-1"></span>
+                            <span class="font-serif text-[11px] sm:text-xs font-bold text-royalInk leading-tight">Dried Rose Petals</span>
+                            <span class="text-[9px] text-plumInk">Gulab Patti</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Selected Spice Detail Panel (Crisp Pearl White Card) -->
+                <div class="lg:col-span-6">
+                    <div id="masala-detail-panel" class="pearl-card mughal-corners rounded-3xl p-7 sm:p-9">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. DASTARKHWAN FEAST PLANNER SECTION -->
+        <section id="feast-planner-section" class="mt-24 pt-16 border-t border-pearlWhite/20">
+            <div class="pearl-card rounded-3xl p-6 sm:p-10">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-6 border-b border-royalInk/15">
+                    <div>
+                        <span class="text-xs uppercase tracking-[0.26em] text-plumInk font-bold">Banquet & Gathering Architect</span>
+                        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-royalInk mt-1">Dastarkhwan Feast Planner</h2>
+                        <p class="text-sm text-imperialPlum/80 mt-1">
+                            Combine dishes across courses, review total prep/cook time and servings, and copy your formatted feast menu.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <button onclick="copyFormattedFeastMenu()" class="px-5 py-3 rounded-xl btn-amethyst-pearl font-bold text-xs sm:text-sm flex items-center gap-2">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copy Feast Menu</span>
+                        </button>
+                        <button onclick="clearFeastPlanner()" class="px-4 py-3 rounded-xl bg-lavenderWash hover:bg-lilacMist/45 border border-royalInk/25 text-royalInk font-bold text-xs sm:text-sm transition-colors">
+                            Clear All
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Summary Metrics -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
+                    <div class="rounded-2xl bg-lavenderWash/85 border border-royalInk/15 p-4">
+                        <span class="text-xs uppercase tracking-wider text-plumInk font-bold block">Selected Dishes</span>
+                        <span id="planner-dish-count" class="font-serif text-2xl sm:text-3xl font-bold text-royalInk mt-1 block">0 Dishes</span>
+                    </div>
+                    <div class="rounded-2xl bg-lavenderWash/85 border border-royalInk/15 p-4">
+                        <span class="text-xs uppercase tracking-wider text-plumInk font-bold block">Estimated Prep + Cook</span>
+                        <span id="planner-total-time" class="font-serif text-2xl sm:text-3xl font-bold text-royalInk mt-1 block">0 mins</span>
+                    </div>
+                    <div class="rounded-2xl bg-lavenderWash/85 border border-royalInk/15 p-4">
+                        <span class="text-xs uppercase tracking-wider text-plumInk font-bold block">Combined Base Servings</span>
+                        <span id="planner-total-servings" class="font-serif text-2xl sm:text-3xl font-bold text-royalInk mt-1 block">0 Guests</span>
+                    </div>
+                </div>
+
+                <!-- Feast Items List -->
+                <div id="feast-planner-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. INTERACTIVE RECIPE DETAIL MODAL -->
+    <div id="recipe-detail-modal" class="fixed inset-0 z-50 hidden overflow-y-auto" role="dialog" aria-modal="true">
+        <div onclick="closeRecipeModal()" class="fixed inset-0 bg-amethystVoid/85 backdrop-blur-md"></div>
+
+        <div class="relative min-h-screen flex items-center justify-center p-3 sm:p-6">
+            <div class="relative w-full max-w-4xl pearl-card rounded-3xl overflow-hidden my-8 border-2 border-pearlWhite">
+                <!-- Top Modal Bar -->
+                <div class="sticky top-0 z-20 flex flex-wrap items-center justify-between gap-3 px-5 sm:px-8 py-4 bg-pearlWhite/95 backdrop-blur border-b border-royalInk/15">
+                    <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-plumInk">
+                        <i class="fa-solid fa-crown"></i>
+                        <span id="modal-category-label">Category</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button id="modal-save-btn" onclick="toggleCurrentModalSaved()" class="px-3.5 py-2 rounded-xl bg-lavenderWash hover:bg-lilacMist/50 border border-royalInk/20 text-royalInk text-xs font-bold flex items-center gap-1.5 transition-colors">
+                            <i class="fa-regular fa-bookmark text-plumInk"></i>
+                            <span>Save</span>
+                        </button>
+                        <button id="modal-feast-btn" onclick="toggleCurrentModalFeast()" class="px-3.5 py-2 rounded-xl btn-amethyst-pearl text-xs font-bold flex items-center gap-1.5">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Add to Feast</span>
+                        </button>
+                        <button onclick="closeRecipeModal()" aria-label="Close recipe modal" class="w-9 h-9 rounded-xl bg-lavenderWash hover:bg-royalInk hover:text-pearlWhite text-royalInk border border-royalInk/20 flex items-center justify-center transition-colors">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hero Banner -->
+                <div id="modal-hero-banner" class="relative h-60 sm:h-72 bg-royalViolet overflow-hidden">
+                    <img id="modal-dish-img" src="" alt="" class="w-full h-full object-cover object-center">
+                    <div class="absolute inset-0 bg-gradient-to-t from-amethystVoid/90 via-amethystVoid/40 to-transparent"></div>
+                    <div class="absolute bottom-5 left-5 right-5 sm:left-8 sm:right-8 text-pearlWhite">
+                        <div class="flex flex-wrap items-center gap-2 mb-2">
+                            <span id="modal-region-pill" class="px-3 py-1 rounded-full pearl-card text-royalInk text-xs font-bold"></span>
+                            <span id="modal-urdu-pill" class="px-3 py-1 rounded-full bg-royalInk/90 border border-pearlWhite/35 text-champagneGold text-xs font-serif"></span>
+                            <span id="modal-spice-pill" class="px-3 py-1 rounded-full bg-amethystVoid/85 border border-pearlWhite/30 text-pearlWhite text-xs font-semibold"></span>
+                        </div>
+                        <h2 id="modal-dish-title" class="font-serif text-2xl sm:text-4xl font-bold"></h2>
+                        <p id="modal-dish-subtitle" class="text-xs sm:text-sm text-lavenderWash mt-1"></p>
+                    </div>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="p-5 sm:p-8 space-y-8 text-royalInk">
+                    <!-- Telemetry Row -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                        <div class="p-3.5 rounded-2xl bg-lavenderWash border border-royalInk/15 text-center">
+                            <span class="text-[11px] uppercase tracking-wider text-plumInk font-bold block">Prep Time</span>
+                            <span id="modal-prep-time" class="font-serif text-lg font-bold text-royalInk mt-0.5 block"></span>
+                        </div>
+                        <div class="p-3.5 rounded-2xl bg-lavenderWash border border-royalInk/15 text-center">
+                            <span class="text-[11px] uppercase tracking-wider text-plumInk font-bold block">Cook / Dum</span>
+                            <span id="modal-cook-time" class="font-serif text-lg font-bold text-royalInk mt-0.5 block"></span>
+                        </div>
+                        <div class="p-3.5 rounded-2xl bg-lavenderWash border border-royalInk/15 text-center">
+                            <span class="text-[11px] uppercase tracking-wider text-plumInk font-bold block">Servings</span>
+                            <span id="modal-servings-summary" class="font-serif text-lg font-bold text-royalInk mt-0.5 block"></span>
+                        </div>
+                        <div class="p-3.5 rounded-2xl bg-lavenderWash border border-royalInk/15 text-center">
+                            <span class="text-[11px] uppercase tracking-wider text-plumInk font-bold block">Difficulty</span>
+                            <span id="modal-difficulty-label" class="font-serif text-lg font-bold text-royalInk mt-0.5 block"></span>
+                        </div>
+                    </div>
+
+                    <p id="modal-dish-description" class="text-sm sm:text-base text-imperialPlum leading-relaxed border-l-4 border-plumInk pl-4 bg-lavenderWash/50 py-2 rounded-r-xl"></p>
+
+                    <!-- Serving Scaler (0.5x, 1x, 1.5x, 2x, 3x) & Measurement Toggle -->
+                    <div class="p-4 sm:p-5 rounded-2xl amethyst-glass text-pearlWhite flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
+                        <div>
+                            <span class="text-xs uppercase tracking-wider text-champagneGold font-bold block mb-2">Serving Size Multiplier</span>
+                            <div class="flex flex-wrap items-center gap-1.5" id="multiplier-buttons">
+                                <button onclick="setMultiplier(0.5)" data-mult="0.5" class="mult-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-royalViolet hover:bg-pearlWhite hover:text-royalInk border border-pearlWhite/30 transition-colors">0.5x</button>
+                                <button onclick="setMultiplier(1)" data-mult="1" class="mult-btn px-3 py-1.5 rounded-xl text-xs font-bold btn-pearl-royal transition-colors">1x</button>
+                                <button onclick="setMultiplier(1.5)" data-mult="1.5" class="mult-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-royalViolet hover:bg-pearlWhite hover:text-royalInk border border-pearlWhite/30 transition-colors">1.5x</button>
+                                <button onclick="setMultiplier(2)" data-mult="2" class="mult-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-royalViolet hover:bg-pearlWhite hover:text-royalInk border border-pearlWhite/30 transition-colors">2x</button>
+                                <button onclick="setMultiplier(3)" data-mult="3" class="mult-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-royalViolet hover:bg-pearlWhite hover:text-royalInk border border-pearlWhite/30 transition-colors">3x</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="text-xs uppercase tracking-wider text-champagneGold font-bold block mb-2 lg:text-right">Measurement Units</span>
+                            <div class="inline-flex rounded-xl bg-amethystVoid p-1 border border-pearlWhite/25">
+                                <button id="unit-btn-metric" onclick="setUnitMode('metric')" class="px-3.5 py-1.5 rounded-lg text-xs font-bold btn-pearl-royal transition-all">
+                                    Metric (g / ml)
+                                </button>
+                                <button id="unit-btn-desi" onclick="setUnitMode('desi')" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-lavenderWash hover:text-pearlWhite transition-all">
+                                    Desi / Imperial
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ingredients Checklist & Step-by-Step Cooking Timers -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                        <!-- Ingredients Checklist (5 Cols) -->
+                        <div class="lg:col-span-5 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-serif text-xl font-bold text-royalInk">Ingredients Checklist</h3>
+                                <button onclick="clearChecklist()" class="text-xs font-semibold text-plumInk hover:underline">Reset checks</button>
+                            </div>
+                            <ul id="modal-ingredients-checklist" class="space-y-2.5">
+                                <!-- Populated by JS -->
+                            </ul>
+                        </div>
+
+                        <!-- Step-by-Step Cooking Guide with Timers (7 Cols) -->
+                        <div class="lg:col-span-7 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <h3 class="font-serif text-xl font-bold text-royalInk">Step-by-Step Method</h3>
+                                <span class="text-xs font-semibold text-plumInk"><i class="fa-solid fa-bell mr-1"></i>Audio chime on completion</span>
+                            </div>
+                            <div id="modal-steps-guide" class="space-y-4">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ustad's Shahi Secret -->
+                    <div class="p-5 rounded-2xl bg-royalInk text-pearlWhite border border-lilacMist/50 flex items-start gap-4">
+                        <div class="w-11 h-11 rounded-xl pearl-card text-royalInk flex items-center justify-center shrink-0 mt-0.5">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-serif text-base font-bold text-champagneGold">Ustad's Shahi Secret</h4>
+                            <p id="modal-shahi-secret" class="text-xs sm:text-sm text-ivorySilk mt-1 leading-relaxed"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-pearlWhite/20 bg-amethystVoid/95 py-10 px-4 sm:px-6 lg:px-8 mt-auto">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+                <span class="font-serif text-xl font-bold pearl-shimmer-text">Zaiqa-e-Shahi</span>
+                <p class="text-xs text-lavenderWash/75 mt-0.5">Royal Amethyst & Pearl White Pakistani Culinary Archive</p>
+            </div>
+            <p class="text-xs text-lilacMist">Lahore • Peshawar • Karachi • Kashmir</p>
+        </div>
+    </footer>
+
+    <script>
+        // =====================================================================
+        // 1. AUTHENTIC PAKISTANI RECIPES DATABASE (8 SIGNATURE DISHES)
+        // =====================================================================
+        const RECIPES = [
+            {
+                id: 'shahi-mutton-biryani',
+                title: 'Shahi Zafrani Mutton Biryani',
+                urduSubtitle: 'شاہی زعفرانی بریانی • Lahore & Sindh',
+                category: 'Rice & Biryani',
+                region: 'Lahore & Sindh',
+                spice: 'Medium',
+                prepTime: 45,
+                cookTime: 65,
+                baseServings: 4,
+                difficulty: 'Royal Master',
+                image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'biryani',
+                description: 'Aged Basmati rice layered over slow-simmered saffron and yogurt-marinated goat, scented with kewra and golden fried onions under a sealed Dum.',
+                shahiSecret: 'Parboil aged Basmati to 75% firmness in briskly boiling salted water with whole star anise and bay leaves so grains stay distinct under Dum.',
+                ingredients: [
+                    { name: 'Bone-in Mutton (shoulder & ribs)', metricQty: 800, metricUnit: 'g', desiQty: 1.75, desiUnit: 'lbs' },
+                    { name: 'Aged Sella or Kainat Basmati Rice', metricQty: 500, metricUnit: 'g', desiQty: 2.5, desiUnit: 'cups' },
+                    { name: 'Full-fat Whisked Yogurt', metricQty: 240, metricUnit: 'ml', desiQty: 1, desiUnit: 'cup' },
+                    { name: 'Golden Fried Onions (Birista)', metricQty: 150, metricUnit: 'g', desiQty: 1.5, desiUnit: 'cups' },
+                    { name: 'Desi Ghee', metricQty: 90, metricUnit: 'ml', desiQty: 6, desiUnit: 'tbsp' },
+                    { name: 'Kashmiri Saffron steeped in warm milk', metricQty: 60, metricUnit: 'ml', desiQty: 4, desiUnit: 'tbsp' },
+                    { name: 'Green Cardamom, Cloves & Star Anise', metricQty: 12, metricUnit: 'g', desiQty: 2, desiUnit: 'tsp whole' }
+                ],
+                steps: [
+                    { title: 'Marinate Mutton in Spiced Yogurt', text: 'Toss mutton with whisked yogurt, ginger-garlic paste, crushed birista, turmeric, and garam masala; rest to tenderize.', timerMinutes: 30 },
+                    { title: 'Simmer Aromatic Yakhni Korma', text: 'Sear mutton in Desi Ghee, then simmer covered until 85% tender and fragrant.', timerMinutes: 25 },
+                    { title: 'Parboil Long-Grain Basmati', text: 'Boil soaked Basmati in spiced salted water until grains lengthen while holding a slight bite.', timerMinutes: 7 },
+                    { title: 'Layer & Seal on Saffron Dum', text: 'Layer rice over mutton, pour saffron milk and ghee, cover tightly, and steam on low heat.', timerMinutes: 20 }
+                ]
+            },
+            {
+                id: 'nihari-khas',
+                title: 'Old Delhi & Lahori Nihari Khas',
+                urduSubtitle: 'لاہوری نہاری خاص • Lahore & Karachi',
+                category: 'Slow-Cooked & Curries',
+                region: 'Lahore & Karachi',
+                spice: 'Fiery',
+                prepTime: 30,
+                cookTime: 180,
+                baseServings: 4,
+                difficulty: 'Patience Craft',
+                image: 'https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'nihari',
+                description: 'Slow-braised beef shank and marrow bones simmered with long pepper (pipli), fennel, and dry ginger into a glossy, velvety morning delicacy.',
+                shahiSecret: 'Dry-toast wheat flour (atta) until nutty before whisking into a slurry so the gravy gains royal silkiness without raw flour taste.',
+                ingredients: [
+                    { name: 'Beef Shank (Bong) & Marrow Bones', metricQty: 1000, metricUnit: 'g', desiQty: 2.2, desiUnit: 'lbs' },
+                    { name: 'Nihari Spice Blend (Pipli, Saunf, Sonth)', metricQty: 45, metricUnit: 'g', desiQty: 3, desiUnit: 'tbsp' },
+                    { name: 'Toasted Whole Wheat Flour (Atta)', metricQty: 60, metricUnit: 'g', desiQty: 0.5, desiUnit: 'cup' },
+                    { name: 'Desi Ghee', metricQty: 120, metricUnit: 'ml', desiQty: 0.5, desiUnit: 'cup' },
+                    { name: 'Sliced Red Onions', metricQty: 200, metricUnit: 'g', desiQty: 2, desiUnit: 'cups' },
+                    { name: 'Ginger-Garlic Paste', metricQty: 45, metricUnit: 'g', desiQty: 3, desiUnit: 'tbsp' }
+                ],
+                steps: [
+                    { title: 'Brown Onions & Sear Beef Shank', text: 'Fry onions in Desi Ghee, add shank and marrow bones with ginger-garlic, and sear until richly browned.', timerMinutes: 12 },
+                    { title: 'Low-Flame Marrow Braise', text: 'Stir in Nihari spices and warm water; simmer gently until beef is fork-tender.', timerMinutes: 140 },
+                    { title: 'Thicken with Roasted Atta Slurry', text: 'Skim top oil (tarri), stream in toasted flour slurry while stirring to avoid lumps.', timerMinutes: 15 },
+                    { title: 'Crown with Tarri & Ginger', text: 'Simmer briefly and ladle into bowls topped with ruby oil, ginger juliennes, and lime.', timerMinutes: 5 }
+                ]
+            },
+            {
+                id: 'lahori-chargha',
+                title: 'Shahi Lahori Chargha',
+                urduSubtitle: 'شاہی لاہوری چرغہ • Walled City Lahore',
+                category: 'Grills & Kebabs',
+                region: 'Walled City Lahore',
+                spice: 'Medium',
+                prepTime: 35,
+                cookTime: 45,
+                baseServings: 4,
+                difficulty: 'Intermediate',
+                image: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'chargha',
+                description: 'Whole scored chicken marinated in tangy yogurt, chaat masala, roasted cumin, and lemon, steamed tender and flash-crisped to golden perfection.',
+                shahiSecret: 'Tie drumsticks neatly with kitchen twine prior to steaming so the whole bird keeps an regal banquet silhouette when crisped.',
+                ingredients: [
+                    { name: 'Whole Scored Chicken', metricQty: 1200, metricUnit: 'g', desiQty: 2.6, desiUnit: 'lbs' },
+                    { name: 'Thick Hung Yogurt', metricQty: 180, metricUnit: 'g', desiQty: 0.75, desiUnit: 'cup' },
+                    { name: 'Fresh Lemon Juice', metricQty: 45, metricUnit: 'ml', desiQty: 3, desiUnit: 'tbsp' },
+                    { name: 'Roasted Cumin & Coriander', metricQty: 20, metricUnit: 'g', desiQty: 4, desiUnit: 'tsp' },
+                    { name: 'Lahori Chaat Masala', metricQty: 15, metricUnit: 'g', desiQty: 1, desiUnit: 'tbsp' },
+                    { name: 'Gram Flour (Besan)', metricQty: 30, metricUnit: 'g', desiQty: 2, desiUnit: 'tbsp' }
+                ],
+                steps: [
+                    { title: 'Citrus & Spice Rub', text: 'Rub scored chicken with lemon juice, salt, and ginger-garlic paste; let rest.', timerMinutes: 15 },
+                    { title: 'Coat in Spiced Yogurt Marinade', text: 'Whisk hung yogurt, besan, chaat masala, and roasted spices; massage into every cut.', timerMinutes: 10 },
+                    { title: 'Steam Until Juicy & Tender', text: 'Steam the chicken over simmering water until cooked through while staying moist.', timerMinutes: 30 },
+                    { title: 'Flash-Fry to Crisp Gold', text: 'Crisp briefly in hot oil until blistered golden, then dust with chaat masala.', timerMinutes: 8 }
+                ]
+            },
+            {
+                id: 'peshawari-chapli-kebab',
+                title: 'Peshawari Chapli Kebab',
+                urduSubtitle: 'پشاور چپلی کباب • Peshawar & Khyber',
+                category: 'Grills & Kebabs',
+                region: 'Peshawar & Khyber',
+                spice: 'Fiery',
+                prepTime: 25,
+                cookTime: 20,
+                baseServings: 4,
+                difficulty: 'Accessible',
+                image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'chapli',
+                description: 'Hand-kneaded spiced minced beef studded with crushed pomegranate seeds (anardana), coriander seeds, and a ripe tomato slice, seared thin on a tawa.',
+                shahiSecret: 'Knead the mince firmly with your palm for several minutes so natural proteins bind and the wide flat kebabs hold together cleanly.',
+                ingredients: [
+                    { name: 'Coarse Beef Mince', metricQty: 750, metricUnit: 'g', desiQty: 1.65, desiUnit: 'lbs' },
+                    { name: 'Crushed Pomegranate Seeds (Anardana)', metricQty: 25, metricUnit: 'g', desiQty: 2, desiUnit: 'tbsp' },
+                    { name: 'Crushed Coriander & Cumin Seeds', metricQty: 20, metricUnit: 'g', desiQty: 4, desiUnit: 'tsp' },
+                    { name: 'Finely Chopped Onions (drained)', metricQty: 150, metricUnit: 'g', desiQty: 1.25, desiUnit: 'cups' },
+                    { name: 'Roasted Maize Flour (Makai Atta)', metricQty: 45, metricUnit: 'g', desiQty: 3, desiUnit: 'tbsp' },
+                    { name: 'Tomato Slices & Fresh Herbs', metricQty: 180, metricUnit: 'g', desiQty: 1.5, desiUnit: 'cups' }
+                ],
+                steps: [
+                    { title: 'Crush Whole Spices & Anardana', text: 'Coarsely crush coriander, cumin, and anardana in a mortar for bright, tangy aroma.', timerMinutes: 5 },
+                    { title: 'Knead Mince Mixture', text: 'Mix mince, drained onion, spices, makai atta, egg, and herbs; knead until cohesive.', timerMinutes: 8 },
+                    { title: 'Flatten & Press Tomato Slice', text: 'Shape thin rounds and gently press a tomato slice onto the center of each kebab.', timerMinutes: 5 },
+                    { title: 'Tawa Sear to Crisp Edges', text: 'Sear on a hot tawa in ghee/oil until caramelized and cooked through.', timerMinutes: 8 }
+                ]
+            },
+            {
+                id: 'shahi-haleem',
+                title: 'Degh-e-Shahi Haleem',
+                urduSubtitle: 'دیگ شاہی حلیم • Karachi & Hyderabad',
+                category: 'Street & Bowls',
+                region: 'Karachi & Hyderabad',
+                spice: 'Medium',
+                prepTime: 60,
+                cookTime: 140,
+                baseServings: 6,
+                difficulty: 'Royal Master',
+                image: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'haleem',
+                description: 'Slow-simmered broken wheat, barley, and four lentils beaten together with shredded spiced beef into a rich, velvety banquet bowl.',
+                shahiSecret: 'Beat with a wooden ghotni rather than over-blending so tender beef strands weave naturally through the grain porridge.',
+                ingredients: [
+                    { name: 'Boneless Beef Cubes', metricQty: 750, metricUnit: 'g', desiQty: 1.65, desiUnit: 'lbs' },
+                    { name: 'Cracked Wheat (Dalia) & Barley', metricQty: 200, metricUnit: 'g', desiQty: 1, desiUnit: 'cup' },
+                    { name: 'Four Lentils Mix (Chana, Moong, Masoor, Mash)', metricQty: 240, metricUnit: 'g', desiQty: 1.25, desiUnit: 'cups' },
+                    { name: 'Desi Ghee for Tempering', metricQty: 100, metricUnit: 'ml', desiQty: 6.5, desiUnit: 'tbsp' },
+                    { name: 'Garam Masala, Mace & Nutmeg', metricQty: 20, metricUnit: 'g', desiQty: 4, desiUnit: 'tsp' },
+                    { name: 'Fried Onions & Fresh Mint/Lemon', metricQty: 120, metricUnit: 'g', desiQty: 1, desiUnit: 'cup' }
+                ],
+                steps: [
+                    { title: 'Simmer Grains & Lentils', text: 'Cook soaked wheat, barley, and lentils with turmeric and salt until soft.', timerMinutes: 45 },
+                    { title: 'Cook & Shred Beef Masala', text: 'Simmer beef with aromatics until tender, then shred finely into long fibers.', timerMinutes: 55 },
+                    { title: 'Ghota Blending & Simmer', text: 'Combine shredded beef with grains and beat until velvety and cohesive.', timerMinutes: 25 },
+                    { title: 'Finish with Ghee Baghar', text: 'Pour sizzling ghee-onion tempering over top and serve with chaat masala and lime.', timerMinutes: 5 }
+                ]
+            },
+            {
+                id: 'highway-chicken-karahi',
+                title: 'Shinwari & Highway Chicken Karahi',
+                urduSubtitle: 'شنواری کڑاہی • Grand Trunk Road',
+                category: 'Slow-Cooked & Curries',
+                region: 'Grand Trunk Road',
+                spice: 'Fiery',
+                prepTime: 15,
+                cookTime: 30,
+                baseServings: 4,
+                difficulty: 'Accessible',
+                image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'karahi',
+                description: 'High-flame iron wok chicken cooked with blistered ripe tomatoes, garlic, ginger, green chilies, and freshly cracked black pepper.',
+                shahiSecret: 'Lift off peeled tomato skins after steaming so the tomato masala reduces into a glossy coat around every piece.',
+                ingredients: [
+                    { name: 'Bone-in Chicken Karahi Cut', metricQty: 900, metricUnit: 'g', desiQty: 2, desiUnit: 'lbs' },
+                    { name: 'Ripe Tomatoes (halved)', metricQty: 600, metricUnit: 'g', desiQty: 3.5, desiUnit: 'cups' },
+                    { name: 'Desi Ghee / Cooking Oil', metricQty: 100, metricUnit: 'ml', desiQty: 6.5, desiUnit: 'tbsp' },
+                    { name: 'Crushed Garlic & Ginger', metricQty: 40, metricUnit: 'g', desiQty: 2.5, desiUnit: 'tbsp' },
+                    { name: 'Cracked Black Pepper', metricQty: 10, metricUnit: 'g', desiQty: 2, desiUnit: 'tsp' },
+                    { name: 'Green Chilies & Ginger Juliennes', metricQty: 45, metricUnit: 'g', desiQty: 0.35, desiUnit: 'cup' }
+                ],
+                steps: [
+                    { title: 'Sear Chicken on High Heat', text: 'Sear chicken and garlic in hot ghee until golden and sealed.', timerMinutes: 8 },
+                    { title: 'Steam & Mash Halved Tomatoes', text: 'Cover with halved tomatoes until tender, remove skins, and mash into masala.', timerMinutes: 10 },
+                    { title: 'High-Flame Bhunai Reduction', text: 'Stir-fry briskly until moisture cooks down and oil glistens.', timerMinutes: 8 },
+                    { title: 'Pepper, Chili & Ginger Toss', text: 'Finish with cracked black pepper, green chilies, and ginger juliennes.', timerMinutes: 4 }
+                ]
+            },
+            {
+                id: 'shahi-tukray',
+                title: 'Nizami Shahi Tukray',
+                urduSubtitle: 'نظامی شاہی ٹکڑے • Mughal Royal Court',
+                category: 'Desserts & Chai',
+                region: 'Mughal Royal Court',
+                spice: 'Mild',
+                prepTime: 20,
+                cookTime: 35,
+                baseServings: 4,
+                difficulty: 'Intermediate',
+                image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'tukray',
+                description: 'Ghee-toasted bread triangles dipped in cardamom-rose syrup and crowned with slow-reduced saffron rabri and slivered pistachios.',
+                shahiSecret: 'Slightly firm bread slices hold their crisp structure after dipping in warm syrup before receiving the creamy rabri.',
+                ingredients: [
+                    { name: 'Thick Bread Slices (crusts trimmed)', metricQty: 240, metricUnit: 'g', desiQty: 6, desiUnit: 'slices' },
+                    { name: 'Full-Cream Milk', metricQty: 1000, metricUnit: 'ml', desiQty: 4, desiUnit: 'cups' },
+                    { name: 'Desi Ghee', metricQty: 90, metricUnit: 'ml', desiQty: 6, desiUnit: 'tbsp' },
+                    { name: 'Sugar', metricQty: 180, metricUnit: 'g', desiQty: 0.9, desiUnit: 'cup' },
+                    { name: 'Saffron, Cardamom & Rosewater', metricQty: 16, metricUnit: 'ml', desiQty: 3, desiUnit: 'tsp' },
+                    { name: 'Pistachios & Almonds', metricQty: 50, metricUnit: 'g', desiQty: 0.35, desiUnit: 'cup' }
+                ],
+                steps: [
+                    { title: 'Reduce Milk into Saffron Rabri', text: 'Simmer milk gently until thickened and fragrant with cardamom and saffron.', timerMinutes: 22 },
+                    { title: 'Simmer Cardamom-Rose Syrup', text: 'Dissolve sugar with water, cardamom, and rosewater until slightly syrupy.', timerMinutes: 7 },
+                    { title: 'Toast Bread Triangles in Ghee', text: 'Fry bread triangles in Desi Ghee until crisp and golden.', timerMinutes: 6 },
+                    { title: 'Dip, Spoon Rabri & Garnish', text: 'Briefly dip toast in syrup, spoon rabri generously over top, and scatter nuts.', timerMinutes: 3 }
+                ]
+            },
+            {
+                id: 'kashmiri-pink-chai',
+                title: 'Kashmiri Noon & Gulabi Chai',
+                urduSubtitle: 'کشمیری گلابی چائے • Kashmir & Northern Valleys',
+                category: 'Desserts & Chai',
+                region: 'Kashmir & Northern Valleys',
+                spice: 'Mild',
+                prepTime: 5,
+                cookTime: 25,
+                baseServings: 4,
+                difficulty: 'Patience Craft',
+                image: 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1000&q=85',
+                artworkKey: 'chai',
+                description: 'Rose-tinted emerald tea aerated with green cardamom, star anise, and creamy milk, finished with crushed pistachios and almonds.',
+                shahiSecret: 'Shocking the reduced green tea decoction with ice water and ladling it briskly awakens its signature rose-pink hue.',
+                ingredients: [
+                    { name: 'Kashmiri Green Tea Leaves', metricQty: 20, metricUnit: 'g', desiQty: 4, desiUnit: 'tsp' },
+                    { name: 'Full-Cream Milk', metricQty: 600, metricUnit: 'ml', desiQty: 2.5, desiUnit: 'cups' },
+                    { name: 'Green Cardamom & Star Anise', metricQty: 10, metricUnit: 'g', desiQty: 2, desiUnit: 'tsp' },
+                    { name: 'Baking Soda', metricQty: 2, metricUnit: 'g', desiQty: 0.25, desiUnit: 'tsp' },
+                    { name: 'Ice-Cold Water', metricQty: 250, metricUnit: 'ml', desiQty: 1, desiUnit: 'cup' },
+                    { name: 'Crushed Pistachios & Almonds', metricQty: 45, metricUnit: 'g', desiQty: 3, desiUnit: 'tbsp' }
+                ],
+                steps: [
+                    { title: 'Brew Spiced Green Tea Kahwa', text: 'Simmer Kashmiri tea leaves, cardamom, star anise, and baking soda in water until reduced.', timerMinutes: 12 },
+                    { title: 'Cold Shock & Aeration (Phaintna)', text: 'Add ice water and ladle briskly from a height until frothy and rose-toned.', timerMinutes: 6 },
+                    { title: 'Simmer with Warm Milk', text: 'Combine reduced kahwa with simmering milk and sweeten or salt lightly to taste.', timerMinutes: 5 },
+                    { title: 'Garnish with Pistachios', text: 'Pour into cups and top generously with crushed pistachios and almonds.', timerMinutes: 2 }
+                ]
+            }
+        ];
+
+        // =====================================================================
+        // 2. ROYAL MASALA DABBA (7 SPICE BOWLS)
+        // =====================================================================
+        const MASALA_DABBA_SPICES = [
+            {
+                name: 'Kashmiri Saffron',
+                urdu: 'زعفران',
+                origin: 'Pampore & Northern Valleys',
+                aromaProfile: 'Warm honeyed hay, delicate floral sweetness, and luminous golden-amber infusion.',
+                pairingSummary: 'Elevates Shahi Zafrani Mutton Biryani and Nizami Shahi Tukray.',
+                filterTerm: 'Saffron',
+                recommendedIds: ['shahi-mutton-biryani', 'shahi-tukray']
+            },
+            {
+                name: 'Green Cardamom',
+                urdu: 'سبز الائچی',
+                origin: 'South Asian & Silk Route Spice Trade',
+                aromaProfile: 'Crisp citrus-eucalyptus lift with sweet, camphorous warmth.',
+                pairingSummary: 'Essential in Kashmiri Noon & Gulabi Chai, Biryani, and sweet rabri.',
+                filterTerm: 'Cardamom',
+                recommendedIds: ['kashmiri-pink-chai', 'shahi-mutton-biryani', 'shahi-tukray']
+            },
+            {
+                name: 'Royal Cumin',
+                urdu: 'شاہی زیرہ',
+                origin: 'High-Altitude Mountain Plains',
+                aromaProfile: 'Earthy, smoky, and refined—more aromatic and slender than everyday cumin.',
+                pairingSummary: 'Adds depth to Lahori Chargha, Peshawari Chapli Kebab, and rice.',
+                filterTerm: 'Cumin',
+                recommendedIds: ['lahori-chargha', 'peshawari-chapli-kebab']
+            },
+            {
+                name: 'Star Anise & Clove',
+                urdu: 'بادیان خطائی و لونگ',
+                origin: 'Maritime & Overland Spice Routes',
+                aromaProfile: 'Sweet licorice warmth balanced by pungent, clove-like baking spice.',
+                pairingSummary: 'Infuses Biryani boiling water and Kashmiri Pink Chai.',
+                filterTerm: 'Star Anise',
+                recommendedIds: ['shahi-mutton-biryani', 'kashmiri-pink-chai']
+            },
+            {
+                name: 'Kashmiri Red Chili',
+                urdu: 'کشمیری لال مرچ',
+                origin: 'Kashmir Valley',
+                aromaProfile: 'Gentle warmth with a vibrant crimson glow and mild smokiness.',
+                pairingSummary: 'Gives Lahori Nihari Khas its signature glistening red oil (tarri).',
+                filterTerm: 'Nihari',
+                recommendedIds: ['nihari-khas', 'shahi-mutton-biryani']
+            },
+            {
+                name: 'Black Cardamom',
+                urdu: 'بڑی الائچی',
+                origin: 'Eastern Himalayas & Mountain Groves',
+                aromaProfile: 'Bold campfire smoke, camphor, and deep savory warmth.',
+                pairingSummary: 'Anchors slow-braised Degh-e-Shahi Haleem and rich mutton gravies.',
+                filterTerm: 'Haleem',
+                recommendedIds: ['shahi-haleem', 'nihari-khas']
+            },
+            {
+                name: 'Dried Rose Petals',
+                urdu: 'گلابی پتی',
+                origin: 'Mughal Gardens & Heritage Rose Farms',
+                aromaProfile: 'Soft, romantic floral perfume that rounds out rich ghee and milk.',
+                pairingSummary: 'Pairs with Nizami Shahi Tukray and Kashmiri Gulabi Chai.',
+                filterTerm: 'Rose',
+                recommendedIds: ['shahi-tukray', 'kashmiri-pink-chai']
+            }
+        ];
+
+        // =====================================================================
+        // 3. STATE & LOCAL STORAGE
+        // =====================================================================
+        const STORAGE_KEYS = {
+            saved: 'zaiqa_amethyst_saved_v1',
+            feast: 'zaiqa_amethyst_feast_v1'
+        };
+
+        const appState = {
+            search: '',
+            category: 'All',
+            spice: 'All',
+            savedOnly: false,
+            savedIds: JSON.parse(localStorage.getItem(STORAGE_KEYS.saved) || '[]'),
+            feastIds: JSON.parse(localStorage.getItem(STORAGE_KEYS.feast) || '["shahi-mutton-biryani","kashmiri-pink-chai"]'),
+            activeBowlIndex: 0,
+            modalRecipeId: null,
+            multiplier: 1,
+            unitMode: 'metric', // 'metric' | 'desi'
+            checkedIngredients: {},
+            timers: {} // stepIdx -> { remainingSec, initialSec, running, intervalId }
+        };
+
+        // Crisp inline SVG culinary emblem fallback (zero broken images)
+        function createDishArtworkSVG(key) {
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('viewBox', '0 0 600 400');
+            svg.setAttribute('class', 'w-full h-full object-cover');
+            svg.innerHTML = `
+                <defs>
+                    <linearGradient id="bgGrad-${key}" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#261248"/>
+                        <stop offset="60%" stop-color="#4C1D95"/>
+                        <stop offset="100%" stop-color="#120824"/>
+                    </linearGradient>
+                </defs>
+                <rect width="600" height="400" fill="url(#bgGrad-${key})"/>
+                <circle cx="300" cy="200" r="120" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+                <circle cx="300" cy="200" r="95" fill="rgba(255,255,255,0.10)" stroke="#F3E5AB" stroke-opacity="0.6" stroke-width="1.5"/>
+                <path d="M250 220 Q300 140 350 220 Z" fill="#F3E5AB" fill-opacity="0.85"/>
+                <text x="300" y="265" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="24" font-weight="bold">Zaiqa-e-Shahi</text>
+            `;
+            return svg;
+        }
+
+        function getFallbackDataUri(title) {
+            const safe = String(title || 'Royal Dish').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+            const xml = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520"><rect width="800" height="520" fill="#261248"/><circle cx="400" cy="250" r="145" fill="#3B136B" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.6"/><text x="400" y="245" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, serif" font-size="30" font-weight="bold">${safe}</text><text x="400" y="285" text-anchor="middle" fill="#F3E5AB" font-family="sans-serif" font-size="16">Royal Pakistani Dastarkhwan</text></svg>`;
+            return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(xml);
+        }
+
+        // =====================================================================
+        // 4. INITIALIZATION & EVENT BINDINGS
+        // =====================================================================
+        document.addEventListener('DOMContentLoaded', () => {
+            bindFilterControls();
+            renderRecipesGrid();
+            selectMasalaBowl(0);
+            renderFeastPlanner();
+            updateHeaderCounts();
+        });
+
+        function bindFilterControls() {
+            const searchInput = document.getElementById('recipe-search-input');
+            const clearBtn = document.getElementById('clear-search-btn');
+
+            searchInput.addEventListener('input', (e) => {
+                appState.search = e.target.value.trim();
+                clearBtn.classList.toggle('hidden', appState.search.length === 0);
+                renderRecipesGrid();
+            });
+
+            document.querySelectorAll('.cat-pill').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    appState.category = btn.dataset.category;
+                    document.querySelectorAll('.cat-pill').forEach(b => {
+                        const active = b.dataset.category === appState.category;
+                        b.className = active
+                            ? 'cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-bold btn-amethyst-pearl transition-all'
+                            : 'cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all';
+                    });
+                    renderRecipesGrid();
+                });
+            });
+
+            document.querySelectorAll('.spice-pill').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    appState.spice = btn.dataset.spice;
+                    document.querySelectorAll('.spice-pill').forEach(b => {
+                        const active = b.dataset.spice === appState.spice;
+                        b.className = active
+                            ? 'spice-pill px-3 py-1 rounded-xl text-xs font-bold bg-royalInk text-pearlWhite transition-all'
+                            : 'spice-pill px-3 py-1 rounded-xl text-xs font-semibold text-royalInk/75 hover:text-royalInk transition-all';
+                    });
+                    renderRecipesGrid();
+                });
+            });
+        }
+
+        function clearSearch() {
+            document.getElementById('recipe-search-input').value = '';
+            document.getElementById('clear-search-btn').classList.add('hidden');
+            appState.search = '';
+            renderRecipesGrid();
+        }
+
+        function toggleSavedOnlyFilter() {
+            appState.savedOnly = !appState.savedOnly;
+            const toggleBtn = document.getElementById('saved-only-toggle');
+            if (appState.savedOnly) {
+                toggleBtn.className = 'px-4 py-2.5 rounded-2xl btn-amethyst-pearl text-xs font-bold flex items-center gap-2 transition-all';
+                toggleBtn.innerHTML = '<i class="fa-solid fa-bookmark text-champagneGold"></i><span>Saved Only: ON</span>';
+            } else {
+                toggleBtn.className = 'px-4 py-2.5 rounded-2xl border border-royalInk/25 bg-pearlWhite hover:bg-lavenderWash text-royalInk text-xs font-bold flex items-center gap-2 transition-all';
+                toggleBtn.innerHTML = '<i class="fa-regular fa-bookmark text-plumInk"></i><span>Saved Only</span>';
+            }
+            renderRecipesGrid();
+        }
+
+        function resetAllFilters() {
+            appState.category = 'All';
+            appState.spice = 'All';
+            appState.savedOnly = false;
+            clearSearch();
+
+            document.querySelectorAll('.cat-pill').forEach(b => {
+                const isAll = b.dataset.category === 'All';
+                b.className = isAll
+                    ? 'cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-bold btn-amethyst-pearl transition-all'
+                    : 'cat-pill px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-lavenderWash text-royalInk border border-royalInk/15 hover:border-plumInk transition-all';
+            });
+
+            document.querySelectorAll('.spice-pill').forEach(b => {
+                const isAll = b.dataset.spice === 'All';
+                b.className = isAll
+                    ? 'spice-pill px-3 py-1 rounded-xl text-xs font-bold bg-royalInk text-pearlWhite transition-all'
+                    : 'spice-pill px-3 py-1 rounded-xl text-xs font-semibold text-royalInk/75 hover:text-royalInk transition-all';
+            });
+
+            const toggleBtn = document.getElementById('saved-only-toggle');
+            toggleBtn.className = 'px-4 py-2.5 rounded-2xl border border-royalInk/25 bg-pearlWhite hover:bg-lavenderWash text-royalInk text-xs font-bold flex items-center gap-2 transition-all';
+            toggleBtn.innerHTML = '<i class="fa-regular fa-bookmark text-plumInk"></i><span>Saved Only</span>';
+
+            renderRecipesGrid();
+        }
+
+        // =====================================================================
+        // 5. RENDER RESPONSIVE RECIPE CARDS (CRISP PEARL WHITE CARDS)
+        // =====================================================================
+        function renderRecipesGrid() {
+            const grid = document.getElementById('recipes-grid');
+            const emptyBox = document.getElementById('empty-recipes-state');
+            const q = appState.search.toLowerCase();
+
+            const filtered = RECIPES.filter(r => {
+                const catOk = appState.category === 'All' || r.category === appState.category;
+                const spiceOk = appState.spice === 'All' || r.spice === appState.spice;
+                const savedOk = !appState.savedOnly || appState.savedIds.includes(r.id);
+                const searchOk = !q ||
+                    r.title.toLowerCase().includes(q) ||
+                    r.urduSubtitle.toLowerCase().includes(q) ||
+                    r.region.toLowerCase().includes(q) ||
+                    r.category.toLowerCase().includes(q) ||
+                    r.ingredients.some(i => i.name.toLowerCase().includes(q));
+                return catOk && spiceOk && savedOk && searchOk;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '';
+                emptyBox.classList.remove('hidden');
+                return;
+            }
+
+            emptyBox.classList.add('hidden');
+            grid.innerHTML = filtered.map(r => {
+                const isSaved = appState.savedIds.includes(r.id);
+                const inFeast = appState.feastIds.includes(r.id);
+                const fallbackSrc = getFallbackDataUri(r.title);
+                const spiceStyle = r.spice === 'Fiery'
+                    ? 'bg-royalInk text-pearlWhite'
+                    : r.spice === 'Medium'
+                        ? 'bg-plumInk/15 text-royalInk border border-plumInk/30'
+                        : 'bg-lavenderWash text-plumInk border border-plumInk/20';
+
+                return `
+                    <article class="pearl-card pearl-card-hover mughal-corners rounded-3xl overflow-hidden flex flex-col justify-between">
+                        <div>
+                            <div class="relative h-48 bg-royalViolet overflow-hidden cursor-pointer" onclick="openRecipeModal('${r.id}')">
+                                <img
+                                    src="${r.image}"
+                                    alt="${r.title}"
+                                    onerror="this.onerror=null;this.src='${fallbackSrc}';"
+                                    class="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
+                                >
+                                <div class="absolute inset-0 bg-gradient-to-t from-amethystVoid/75 via-transparent to-transparent"></div>
+
+                                <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-pearlWhite/95 text-royalInk text-[11px] font-bold shadow">
+                                    ${r.category}
+                                </span>
+
+                                <button
+                                    onclick="event.stopPropagation(); toggleSavedRecipe('${r.id}')"
+                                    aria-label="Save ${r.title}"
+                                    class="absolute top-3 right-3 w-9 h-9 rounded-full ${isSaved ? 'bg-royalInk text-champagneGold border border-pearlWhite' : 'bg-pearlWhite/90 text-royalInk border border-royalInk/20 hover:bg-pearlWhite'} flex items-center justify-center shadow transition-all"
+                                >
+                                    <i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark text-xs"></i>
+                                </button>
+
+                                <span class="absolute bottom-2.5 left-3.5 text-[11px] font-semibold text-pearlWhite flex items-center gap-1">
+                                    <i class="fa-solid fa-location-dot text-lilacMist"></i>
+                                    ${r.region}
+                                </span>
+                            </div>
+
+                            <div class="p-5 cursor-pointer" onclick="openRecipeModal('${r.id}')">
+                                <p class="text-[11px] font-semibold text-plumInk truncate">${r.urduSubtitle}</p>
+                                <h3 class="font-serif text-xl font-bold text-royalInk mt-0.5 leading-snug">${r.title}</h3>
+
+                                <div class="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-royalInk/15 text-[11px] text-imperialPlum font-semibold">
+                                    <span class="flex items-center gap-1">
+                                        <i class="fa-regular fa-clock text-plumInk"></i>
+                                        ${r.prepTime + r.cookTime}m
+                                    </span>
+                                    <span class="flex items-center gap-1">
+                                        <i class="fa-solid fa-users text-plumInk"></i>
+                                        ${r.baseServings} srv
+                                    </span>
+                                    <span class="px-2 py-0.5 rounded-full text-center font-bold ${spiceStyle}">
+                                        ${r.spice}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-5 pb-5 pt-1 flex items-center gap-2">
+                            <button
+                                onclick="openRecipeModal('${r.id}')"
+                                class="flex-1 py-2.5 px-3 rounded-xl btn-amethyst-pearl text-xs font-bold"
+                            >
+                                View Recipe & Timers
+                            </button>
+                            <button
+                                onclick="toggleFeastItem('${r.id}')"
+                                class="px-3 py-2.5 rounded-xl text-xs font-bold border transition-all ${inFeast ? 'bg-royalInk text-pearlWhite border-royalInk' : 'bg-lavenderWash hover:bg-lilacMist/45 text-royalInk border-royalInk/25'}"
+                            >
+                                <i class="fa-solid ${inFeast ? 'fa-check' : 'fa-plus'} mr-1"></i>${inFeast ? 'Added' : 'Feast'}
+                            </button>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        // =====================================================================
+        // 6. INTERACTIVE RECIPE DETAIL MODAL + SERVING MULTIPLIER + TIMERS
+        // =====================================================================
+        function openRecipeModal(recipeId) {
+            const recipe = RECIPES.find(r => r.id === recipeId);
+            if (!recipe) return;
+
+            stopAllTimers();
+            appState.modalRecipeId = recipe.id;
+            appState.multiplier = 1;
+            appState.unitMode = 'metric';
+            appState.checkedIngredients = {};
+            appState.timers = {};
+
+            document.getElementById('modal-category-label').textContent = recipe.category;
+            const imgEl = document.getElementById('modal-dish-img');
+            imgEl.src = recipe.image;
+            imgEl.alt = recipe.title;
+            imgEl.onerror = function() { this.src = getFallbackDataUri(recipe.title); };
+
+            document.getElementById('modal-region-pill').textContent = recipe.region;
+            document.getElementById('modal-urdu-pill').textContent = recipe.urduSubtitle.split('•')[0].trim();
+            document.getElementById('modal-spice-pill').innerHTML = `<i class="fa-solid fa-pepper-hot text-lilacMist mr-1"></i>${recipe.spice} Spice`;
+            document.getElementById('modal-dish-title').textContent = recipe.title;
+            document.getElementById('modal-dish-subtitle').textContent = recipe.description;
+            document.getElementById('modal-prep-time').textContent = `${recipe.prepTime} mins`;
+            document.getElementById('modal-cook-time').textContent = `${recipe.cookTime} mins`;
+            document.getElementById('modal-difficulty-label').textContent = recipe.difficulty;
+            document.getElementById('modal-dish-description').textContent = recipe.description;
+            document.getElementById('modal-shahi-secret').textContent = recipe.shahiSecret;
+
+            syncMultiplierUI();
+            syncUnitModeUI();
+            updateServingsSummary();
+            syncModalActionButtons();
+            renderModalIngredients();
+            renderModalSteps();
+
+            document.getElementById('recipe-detail-modal').classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeRecipeModal() {
+            stopAllTimers();
+            document.getElementById('recipe-detail-modal').classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+            appState.modalRecipeId = null;
+        }
+
+        function syncModalActionButtons() {
+            if (!appState.modalRecipeId) return;
+            const isSaved = appState.savedIds.includes(appState.modalRecipeId);
+            const inFeast = appState.feastIds.includes(appState.modalRecipeId);
+
+            document.getElementById('modal-save-btn').innerHTML = `
+                <i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark text-plumInk"></i>
+                <span>${isSaved ? 'Saved' : 'Save'}</span>
+            `;
+
+            document.getElementById('modal-feast-btn').innerHTML = `
+                <i class="fa-solid ${inFeast ? 'fa-check' : 'fa-plus'}"></i>
+                <span>${inFeast ? 'In Feast' : 'Add to Feast'}</span>
+            `;
+        }
+
+        function toggleCurrentModalSaved() {
+            if (appState.modalRecipeId) {
+                toggleSavedRecipe(appState.modalRecipeId);
+                syncModalActionButtons();
+            }
+        }
+
+        function toggleCurrentModalFeast() {
+            if (appState.modalRecipeId) {
+                toggleFeastItem(appState.modalRecipeId);
+                syncModalActionButtons();
+            }
+        }
+
+        function setMultiplier(mult) {
+            appState.multiplier = mult;
+            syncMultiplierUI();
+            updateServingsSummary();
+            renderModalIngredients();
+        }
+
+        function syncMultiplierUI() {
+            document.querySelectorAll('.mult-btn').forEach(btn => {
+                const val = parseFloat(btn.dataset.mult);
+                btn.className = val === appState.multiplier
+                    ? 'mult-btn px-3 py-1.5 rounded-xl text-xs font-bold btn-pearl-royal transition-colors'
+                    : 'mult-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-royalViolet hover:bg-pearlWhite hover:text-royalInk border border-pearlWhite/30 transition-colors';
+            });
+        }
+
+        function updateServingsSummary() {
+            const recipe = RECIPES.find(r => r.id === appState.modalRecipeId);
+            if (!recipe) return;
+            const scaled = formatNum(recipe.baseServings * appState.multiplier);
+            document.getElementById('modal-servings-summary').textContent = `${scaled} (${appState.multiplier}x)`;
+        }
+
+        function setUnitMode(mode) {
+            appState.unitMode = mode;
+            syncUnitModeUI();
+            renderModalIngredients();
+        }
+
+        function syncUnitModeUI() {
+            const metricBtn = document.getElementById('unit-btn-metric');
+            const desiBtn = document.getElementById('unit-btn-desi');
+
+            if (appState.unitMode === 'metric') {
+                metricBtn.className = 'px-3.5 py-1.5 rounded-lg text-xs font-bold btn-pearl-royal transition-all';
+                desiBtn.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold text-lavenderWash hover:text-pearlWhite transition-all';
+            } else {
+                desiBtn.className = 'px-3.5 py-1.5 rounded-lg text-xs font-bold btn-pearl-royal transition-all';
+                metricBtn.className = 'px-3.5 py-1.5 rounded-lg text-xs font-semibold text-lavenderWash hover:text-pearlWhite transition-all';
+            }
+        }
+
+        function formatNum(value) {
+            const rounded = Math.round(value * 100) / 100;
+            return Number.isInteger(rounded) ? String(rounded) : String(Number(rounded.toFixed(1)));
+        }
+
+        function renderModalIngredients() {
+            const recipe = RECIPES.find(r => r.id === appState.modalRecipeId);
+            if (!recipe) return;
+
+            const list = document.getElementById('modal-ingredients-checklist');
+            list.innerHTML = recipe.ingredients.map((item, idx) => {
+                const baseQty = appState.unitMode === 'metric' ? item.metricQty : item.desiQty;
+                const unit = appState.unitMode === 'metric' ? item.metricUnit : item.desiUnit;
+                const qtyText = formatNum(baseQty * appState.multiplier);
+                const checked = !!appState.checkedIngredients[idx];
+
+                return `
+                    <li
+                        onclick="toggleChecklistItem(${idx})"
+                        class="p-3 rounded-2xl border cursor-pointer transition-all flex items-center justify-between gap-3 ${checked ? 'bg-lavenderWash/50 border-royalInk/10 opacity-60' : 'bg-lavenderWash border-royalInk/20 hover:border-plumInk'}"
+                    >
+                        <div class="flex items-center gap-3">
+                            <span class="w-5 h-5 rounded-md flex items-center justify-center text-xs font-bold shrink-0 ${checked ? 'bg-royalInk text-pearlWhite' : 'bg-pearlWhite border border-royalInk/35 text-transparent'}">
+                                <i class="fa-solid fa-check text-[10px]"></i>
+                            </span>
+                            <span class="text-xs sm:text-sm font-medium ${checked ? 'line-through text-imperialPlum/70' : 'text-royalInk'}">${item.name}</span>
+                        </div>
+                        <span class="text-xs font-extrabold text-royalInk bg-pearlWhite px-2.5 py-1 rounded-lg border border-royalInk/15 shrink-0">
+                            ${qtyText} ${unit}
+                        </span>
+                    </li>
+                `;
+            }).join('');
+        }
+
+        function toggleChecklistItem(idx) {
+            appState.checkedIngredients[idx] = !appState.checkedIngredients[idx];
+            renderModalIngredients();
+        }
+
+        function clearChecklist() {
+            appState.checkedIngredients = {};
+            renderModalIngredients();
+        }
+
+        function renderModalSteps() {
+            const recipe = RECIPES.find(r => r.id === appState.modalRecipeId);
+            if (!recipe) return;
+
+            const container = document.getElementById('modal-steps-guide');
+            container.innerHTML = recipe.steps.map((step, idx) => {
+                const sec = step.timerMinutes * 60;
+                appState.timers[idx] = {
+                    remainingSec: sec,
+                    initialSec: sec,
+                    running: false,
+                    intervalId: null
+                };
+
+                return `
+                    <div id="step-box-${idx}" class="p-4 sm:p-5 rounded-2xl bg-lavenderWash border border-royalInk/20 space-y-2.5 transition-all">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div class="flex items-center gap-2.5">
+                                <span class="w-7 h-7 rounded-full bg-royalInk text-pearlWhite font-serif text-xs font-bold flex items-center justify-center shrink-0">
+                                    ${idx + 1}
+                                </span>
+                                <h4 class="font-serif text-base font-bold text-royalInk">${step.title}</h4>
+                            </div>
+
+                            <!-- Timer Controls: Start/Pause & Reset -->
+                            <div class="flex items-center gap-1.5 bg-pearlWhite px-2.5 py-1 rounded-xl border border-royalInk/20">
+                                <span id="step-clock-${idx}" class="font-mono text-xs font-bold text-royalInk pr-1">${formatSeconds(sec)}</span>
+                                <button onclick="toggleStepCountdown(${idx})" id="step-toggle-btn-${idx}" class="px-2.5 py-1 rounded-lg btn-amethyst-pearl text-[11px] font-bold">
+                                    Start
+                                </button>
+                                <button onclick="resetStepCountdown(${idx})" title="Reset timer" class="px-2 py-1 rounded-lg bg-lavenderWash hover:bg-lilacMist/50 text-royalInk text-[11px] font-bold">
+                                    Reset
+                                </button>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-imperialPlum leading-relaxed pl-9">
+                            ${step.text}
+                        </p>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function formatSeconds(totalSec) {
+            const mins = Math.floor(totalSec / 60);
+            const secs = totalSec % 60;
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function toggleStepCountdown(idx) {
+            const t = appState.timers[idx];
+            if (!t) return;
+
+            const btn = document.getElementById(`step-toggle-btn-${idx}`);
+            const box = document.getElementById(`step-box-${idx}`);
+
+            if (t.running) {
+                clearInterval(t.intervalId);
+                t.running = false;
+                if (box) box.classList.remove('timer-running', 'border-plumInk');
+                if (btn) btn.textContent = 'Resume';
+            } else {
+                if (t.remainingSec <= 0) t.remainingSec = t.initialSec;
+                t.running = true;
+                if (box) box.classList.add('timer-running', 'border-plumInk');
+                if (btn) btn.textContent = 'Pause';
+
+                t.intervalId = setInterval(() => {
+                    t.remainingSec -= 1;
+                    const clockEl = document.getElementById(`step-clock-${idx}`);
+                    if (clockEl) clockEl.textContent = formatSeconds(Math.max(0, t.remainingSec));
+
+                    if (t.remainingSec <= 0) {
+                        clearInterval(t.intervalId);
+                        t.running = false;
+                        if (box) box.classList.remove('timer-running');
+                        if (btn) btn.textContent = 'Done';
+                        playTimerBeep();
+                        showToast(`Timer complete for Step ${idx + 1}!`, 'pearl');
+                    }
+                }, 1000);
+            }
+        }
+
+        function resetStepCountdown(idx) {
+            const t = appState.timers[idx];
+            if (!t) return;
+            clearInterval(t.intervalId);
+            t.running = false;
+            t.remainingSec = t.initialSec;
+            const clockEl = document.getElementById(`step-clock-${idx}`);
+            const btn = document.getElementById(`step-toggle-btn-${idx}`);
+            const box = document.getElementById(`step-box-${idx}`);
+            if (clockEl) clockEl.textContent = formatSeconds(t.remainingSec);
+            if (btn) btn.textContent = 'Start';
+            if (box) box.classList.remove('timer-running', 'border-plumInk');
+        }
+
+        function stopAllTimers() {
+            Object.values(appState.timers).forEach(t => {
+                if (t.intervalId) clearInterval(t.intervalId);
+            });
+            appState.timers = {};
+        }
+
+        // Web Audio API gentle chime alert on timer completion
+        function playTimerBeep() {
+            try {
+                const AudioCtx = window.AudioContext || window.webkitAudioContext;
+                if (!AudioCtx) return;
+                const ctx = new AudioCtx();
+                const now = ctx.currentTime;
+                [587.33, 880].forEach((freq, i) => {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(freq, now + i * 0.22);
+                    gain.gain.setValueAtTime(0.001, now + i * 0.22);
+                    gain.gain.exponentialRampToValueAtTime(0.16, now + i * 0.22 + 0.04);
+                    gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.22 + 0.55);
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+                    osc.start(now + i * 0.22);
+                    osc.stop(now + i * 0.22 + 0.6);
+                });
+            } catch (_) {
+                // Ignore audio context restrictions gracefully
+            }
+        }
+
+        // =====================================================================
+        // 7. SAVED RECIPES & DASTARKHWAN FEAST PLANNER
+        // =====================================================================
+        function toggleSavedRecipe(recipeId) {
+            const idx = appState.savedIds.indexOf(recipeId);
+            const recipe = RECIPES.find(r => r.id === recipeId);
+            if (idx === -1) {
+                appState.savedIds.push(recipeId);
+                showToast(`Saved "${recipe ? recipe.title : 'Dish'}" to collection`, 'pearl');
+            } else {
+                appState.savedIds.splice(idx, 1);
+                showToast(`Removed "${recipe ? recipe.title : 'Dish'}" from saved`);
+            }
+            localStorage.setItem(STORAGE_KEYS.saved, JSON.stringify(appState.savedIds));
+            updateHeaderCounts();
+            renderRecipesGrid();
+        }
+
+        function toggleFeastItem(recipeId) {
+            const idx = appState.feastIds.indexOf(recipeId);
+            const recipe = RECIPES.find(r => r.id === recipeId);
+            if (idx === -1) {
+                appState.feastIds.push(recipeId);
+                showToast(`Added "${recipe ? recipe.title : 'Dish'}" to Dastarkhwan`, 'pearl');
+            } else {
+                appState.feastIds.splice(idx, 1);
+                showToast(`Removed "${recipe ? recipe.title : 'Dish'}" from Dastarkhwan`);
+            }
+            localStorage.setItem(STORAGE_KEYS.feast, JSON.stringify(appState.feastIds));
+            updateHeaderCounts();
+            renderRecipesGrid();
+            renderFeastPlanner();
+        }
+
+        function clearFeastPlanner() {
+            appState.feastIds = [];
+            localStorage.setItem(STORAGE_KEYS.feast, JSON.stringify([]));
+            updateHeaderCounts();
+            renderRecipesGrid();
+            renderFeastPlanner();
+            showToast('Dastarkhwan Feast Planner cleared');
+        }
+
+        function updateHeaderCounts() {
+            document.getElementById('saved-count-badge').textContent = appState.savedIds.length;
+            document.getElementById('feast-count-badge').textContent = appState.feastIds.length;
+        }
+
+        function renderFeastPlanner() {
+            const listEl = document.getElementById('feast-planner-list');
+            const selected = appState.feastIds.map(id => RECIPES.find(r => r.id === id)).filter(Boolean);
+
+            const totalMins = selected.reduce((sum, r) => sum + r.prepTime + r.cookTime, 0);
+            const totalSrvs = selected.reduce((sum, r) => sum + r.baseServings, 0);
+
+            document.getElementById('planner-dish-count').textContent = `${selected.length} ${selected.length === 1 ? 'Dish' : 'Dishes'}`;
+            document.getElementById('planner-total-time').textContent = `${totalMins} mins`;
+            document.getElementById('planner-total-servings').textContent = `${totalSrvs} Guests`;
+
+            if (selected.length === 0) {
+                listEl.innerHTML = `
+                    <div class="md:col-span-2 rounded-2xl border border-dashed border-royalInk/25 bg-lavenderWash/60 p-8 text-center">
+                        <p class="font-serif text-xl font-bold text-royalInk">Your Dastarkhwan Table Is Ready</p>
+                        <p class="text-xs sm:text-sm text-imperialPlum/75 mt-1">Click "+ Feast" on any recipe card or inside a recipe modal to build your banquet menu.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            listEl.innerHTML = selected.map(r => `
+                <div class="rounded-2xl bg-lavenderWash/85 border border-royalInk/20 p-4 flex items-center justify-between gap-4">
+                    <div class="cursor-pointer" onclick="openRecipeModal('${r.id}')">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-plumInk">${r.category} • ${r.region}</span>
+                        <h4 class="font-serif text-lg font-bold text-royalInk hover:text-plumInk transition-colors">${r.title}</h4>
+                        <p class="text-xs text-imperialPlum/80 mt-0.5">${r.prepTime + r.cookTime} mins • ${r.baseServings} servings • ${r.spice} spice</p>
+                    </div>
+                    <button onclick="toggleFeastItem('${r.id}')" aria-label="Remove ${r.title}" class="px-3 py-2 rounded-xl bg-pearlWhite hover:bg-royalInk hover:text-pearlWhite text-royalInk border border-royalInk/20 text-xs font-bold shrink-0 transition-colors">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        function copyFormattedFeastMenu() {
+            const selected = appState.feastIds.map(id => RECIPES.find(r => r.id === id)).filter(Boolean);
+            if (selected.length === 0) {
+                showToast('Add at least one dish to copy your Feast Menu');
+                return;
+            }
+
+            const totalMins = selected.reduce((sum, r) => sum + r.prepTime + r.cookTime, 0);
+            const totalSrvs = selected.reduce((sum, r) => sum + r.baseServings, 0);
+
+            const menuText = [
+                '✦ ZAIQA-E-SHAHI | ROYAL DASTARKHWAN MENU ✦',
+                '==========================================',
+                ...selected.map((r, i) => `${i + 1}. ${r.title} [${r.category}] — ${r.region} (${r.prepTime + r.cookTime}m, ${r.spice} Spice)`),
+                '==========================================',
+                `Estimated Total Time: ${totalMins} mins | Base Servings: ${totalSrvs} Guests`
+            ].join('\n');
+
+            const helper = document.createElement('textarea');
+            helper.value = menuText;
+            helper.setAttribute('readonly', '');
+            helper.style.position = 'absolute';
+            helper.style.left = '-9999px';
+            document.body.appendChild(helper);
+            helper.select();
+            try {
+                document.execCommand('copy');
+                showToast('Formatted Dastarkhwan Feast Menu copied to clipboard!', 'pearl');
+            } catch (_) {
+                showToast('Could not copy automatically. Please copy manually.');
+            }
+            document.body.removeChild(helper);
+        }
+
+        // =====================================================================
+        // 8. ROYAL MASALA DABBA INTERACTION
+        // =====================================================================
+        function selectMasalaBowl(index) {
+            const spice = MASALA_DABBA_SPICES[index];
+            if (!spice) return;
+            appState.activeBowlIndex = index;
+
+            document.querySelectorAll('.dabba-bowl').forEach((btn, i) => {
+                if (i === index) {
+                    btn.classList.add('scale-110', 'ring-4', 'ring-pearlWhite/80');
+                } else {
+                    btn.classList.remove('scale-110', 'ring-4', 'ring-pearlWhite/80');
+                }
+            });
+
+            const linkedButtons = spice.recommendedIds
+                .map(id => RECIPES.find(r => r.id === id))
+                .filter(Boolean)
+                .map(r => `
+                    <button onclick="openRecipeModal('${r.id}')" class="px-3.5 py-2 rounded-xl bg-lavenderWash hover:bg-lilacMist/50 border border-royalInk/20 text-royalInk text-xs font-bold flex items-center gap-1.5 transition-colors">
+                        <i class="fa-solid fa-utensils text-plumInk"></i>
+                        <span>${r.title}</span>
+                    </button>
+                `).join('');
+
+            document.getElementById('masala-detail-panel').innerHTML = `
+                <div class="flex items-start justify-between gap-4 pb-4 border-b border-royalInk/15">
+                    <div>
+                        <span class="text-xs uppercase tracking-[0.22em] text-plumInk font-bold">Masala Dabba Spice #${index + 1}</span>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-royalInk mt-1">${spice.name}</h3>
+                    </div>
+                    <span class="font-serif text-2xl sm:text-3xl font-bold text-plumInk select-none">${spice.urdu}</span>
+                </div>
+
+                <div class="space-y-4 mt-5 text-sm text-imperialPlum">
+                    <div>
+                        <span class="text-xs uppercase tracking-wider font-bold text-royalInk block mb-1">Heritage & Origin</span>
+                        <p><i class="fa-solid fa-compass text-plumInk mr-1.5"></i>${spice.origin}</p>
+                    </div>
+                    <div>
+                        <span class="text-xs uppercase tracking-wider font-bold text-royalInk block mb-1">Aroma & Flavor Profile</span>
+                        <p class="leading-relaxed">${spice.aromaProfile}</p>
+                    </div>
+                    <div>
+                        <span class="text-xs uppercase tracking-wider font-bold text-royalInk block mb-1">Culinary Pairing</span>
+                        <p class="leading-relaxed">${spice.pairingSummary}</p>
+                    </div>
+                </div>
+
+                <div class="mt-6 pt-5 border-t border-royalInk/15 space-y-3">
+                    <span class="text-xs uppercase tracking-wider font-bold text-royalInk block">Pairing Recipes</span>
+                    <div class="flex flex-wrap gap-2">${linkedButtons}</div>
+                    <button onclick="filterRecipesBySpiceTerm('${spice.filterTerm}')" class="mt-2 px-5 py-2.5 rounded-xl btn-amethyst-pearl text-xs sm:text-sm font-bold inline-flex items-center gap-2">
+                        <i class="fa-solid fa-filter"></i>
+                        <span>Filter Treasury by "${spice.filterTerm}"</span>
+                    </button>
+                </div>
+            `;
+        }
+
+        function filterRecipesBySpiceTerm(term) {
+            const input = document.getElementById('recipe-search-input');
+            appState.search = term;
+            input.value = term;
+            document.getElementById('clear-search-btn').classList.remove('hidden');
+            renderRecipesGrid();
+            document.getElementById('recipes-section').scrollIntoView({ behavior: 'smooth' });
+            showToast(`Filtered recipes for "${term}"`, 'pearl');
+        }
+
+        // =====================================================================
+        // 9. TOAST FEEDBACK (NO alert() USED)
+        // =====================================================================
+        function showToast(message, style = 'default') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `pointer-events-auto rounded-2xl px-4 py-3 text-xs sm:text-sm font-semibold flex items-center gap-2.5 shadow-royal-card transition-all duration-300 ${
+                style === 'pearl'
+                    ? 'pearl-card text-royalInk'
+                    : 'amethyst-glass text-pearlWhite'
+            }`;
+            toast.innerHTML = `<i class="fa-solid fa-crown text-plumInk ${style === 'pearl' ? '' : 'text-champagneGold'}"></i><span>${message}</span>`;
+
+            container.appendChild(toast);
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'translate-y-2');
+                setTimeout(() => toast.remove(), 300);
+            }, 2800);
+        }
+    </script>
+</body>
+</html>
